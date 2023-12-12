@@ -1,0 +1,124 @@
+body, p {
+    background: linear-gradient(to bottom right, #eb770d, #98dbf6); 
+    
+    font-family: Georgia, sans-serif;
+    font-size: 22px;
+    line-height: 2.0;
+    font-weight: normal;
+    color: #39383d;
+    
+    margin: 10px;
+    padding: 10px;
+
+    text-align: center;
+  }
+  
+  
+  table {
+    font-family: Georgia, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 2px solid #e1dee7;
+  }
+  td {
+    font-size: 18px;
+    background-color: #76b2d0;
+  }
+  th {
+    font-size: 22px;
+    background-color: #8abed8;
+    font-weight: bold;
+  }
+  
+  tr:hover {
+    background-color: #8abed8;
+  }
+  
+  form {
+    font-size: 16px;
+    font-family: Georgia, sans-serif;
+    color: #39383d;
+    background-color: #8bbbd3;
+    border: 2px solid #e1dee7;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #e1dee7;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  input[type="submit"] {
+    background-color: #8bbbd3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #acd7ed;
+  }
+  
+  select, input {
+    display: block;
+    margin-bottom: 1.5em;
+    padding: 0.5em;
+    border-radius: 0.25em;
+    border: 1px solid #ccc;
+    font-size: inherit;
+    font-family: Helvetica, sans-serif;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5em;
+  }
+  
+  .button {
+    font-family: Georgia;
+    background-color: #8bbbd3;
+    color: #007;
+    border: 2px solid #007;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    }
+    
+    .button:hover {
+    font-family: Georgia;
+    background-color: #acd7ed;
+    color: #007;
+    border: 2px solid #007;
+    font-size: 16px;
+    font-weight: lighter;
+    }
+    
+    .button-primary {
+    background-color: #8bbbd3;
+    color: #007;
+    border: 2px solid #007;
+    font-size: 16px;
+    font-weight: bold;
+    }
+    
+    .button-primary:hover {
+    background-color: #acd7ed;
+    border-color: #007;
+    }
